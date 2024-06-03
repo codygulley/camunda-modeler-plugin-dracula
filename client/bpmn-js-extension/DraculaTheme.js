@@ -17,11 +17,9 @@ export default function DraculaTheme(eventBus) {
       }
 
       if(element.type == 'label'){
-
-        if(elementDi.label){
+        if(elementDi.label && !element.di['border-color']){
           elementDi.label.set('color', element.di['border-color']=getComputedStyle(documentElement).getPropertyValue('--color-grey-225-10-35'));
         }
-
       }
     }
   }
