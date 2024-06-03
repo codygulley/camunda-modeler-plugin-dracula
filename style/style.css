@@ -44,6 +44,8 @@
 
     --token-simulation-silver-darken-94: var(--dracula-current-line);
     --token-simulation-grey-darken-30: var(--dracula-foreground);
+
+    --input-focus-border-color: var(--color-blue-205-100-50);
 }
 
 .bts-animation-speed-buttons path{
@@ -280,6 +282,12 @@ select{
 .djs-popup .entry:hover {
     color: var(--dracula-purple);
   }
+  
+.djs-popup-search input:focus,
+.djs-search-input input:focus {
+  background-color: var(--dracula-current-line) !important;
+  color: var(--dracula-foreground) !important;
+}
 
 .djs-context-pad {
     position: absolute;
