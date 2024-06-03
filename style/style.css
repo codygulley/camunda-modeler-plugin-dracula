@@ -180,9 +180,9 @@ select{
     --list-entry-add-entry-background-color: var(--color-blue-205-100-50);
     --list-entry-add-entry-fill-color: var(--color-white);
 
-    --dropdown-item-background-color: var(--color-white);
-    --dropdown-item-hover-background-color: var(--color-grey-225-10-95);
-    --dropdown-separator-background-color: var(--color-grey-225-10-75);
+    --dropdown-item-background-color: var(--dracula-background);
+    --dropdown-item-hover-background-color: var(--add-entry-hover-background-color);
+    --dropdown-separator-background-color: var(--separator-color);
 
     --feel-active-color: var(--color-blue-205-100-35);
     --feel-inactive-color: var(--color-grey-225-10-35);
@@ -345,3 +345,275 @@ select{
     background-color: var(--dracula-current-line) !important;
     color: var(--dracula-foreground) !important;
   }
+
+  /* DMN */
+
+  /* Color definitions */
+ .dmn-js-parent {
+  --color-grey-225-10-15: rgb(248, 248, 242);
+  --color-grey-225-10-35: rgb(207, 205, 205);
+  --color-grey-225-10-55: rgb(175, 172, 175);
+  --color-grey-225-10-75: rgb(146, 143, 149);
+  --color-grey-225-10-80: rgb(120, 117, 125);
+  --color-grey-225-10-85: rgb(96, 94, 83);
+  --color-grey-225-10-90: rgb(76, 74, 85);
+  --color-grey-225-10-95: rgb(56, 57, 69);
+  --color-grey-225-10-97: rgb(40, 42, 54);
+
+  --color-blue-205-100-35: hsl(205, 100%, 35%);
+  --color-blue-205-100-45: hsl(205, 100%, 45%);
+  --color-blue-205-100-50: hsl(205, 100%, 50%);
+  --color-blue-205-100-95: hsl(205, 100%, 95%);
+
+  --color-green-150-86-44: hsl(150, 86%, 44%);
+
+  --color-red-360-100-40: hsl(360, 100%, 40%);
+  --color-red-360-100-45: hsl(360, 100%, 45%);
+  --color-red-360-100-92: hsl(360, 100%, 92%);
+  --color-red-360-100-97: hsl(360, 100%, 97%);
+
+  --color-white: var(--dracula-background);
+  --color-black: var(--dracula-foreground);
+  --color-transparent: transparent;
+
+  --text-base-color: var(--dracula-foreground) !important;
+  --text-error-color: var(--dracula-red);
+  --link-color: var(--dracula-cyan);
+
+  --description-color: hsla(var(--dracula-foreground), .1);
+  --description-code-background-color: var(--color-grey-225-10-97);
+  --description-code-border-color: var(--color-grey-225-10-85);
+  --description-list-item-color: var(--color-grey-225-10-35);
+
+  --placeholder-color: var(--color-grey-225-10-35);
+  --placeholder-background-color: var(--color-grey-225-10-95);
+
+  --header-background-color: var(--color-grey-225-10-95);
+  --header-icon-fill-color: var(--color-grey-225-10-15);
+  --header-bottom-border-color: var(--color-grey-225-10-75);
+
+  --group-background-color: var(--color-white);
+  --group-bottom-border-color: var(--color-grey-225-10-75);
+
+  --sticky-group-background-color: var(--color-grey-225-10-95);
+  --sticky-group-bottom-border-color: var(--color-grey-225-10-75);
+
+  --add-entry-fill-color: var(--color-grey-225-10-35);
+  --add-entry-hover-fill-color: var(--color-white);
+  --add-entry-hover-background-color: var(--color-blue-205-100-50);
+  --add-entry-label-color: var(--color-white);
+
+  --remove-entry-fill-color: var(--color-red-360-100-45);
+  --remove-entry-hover-background-color: var(--color-red-360-100-92);
+
+  --arrow-fill-color: var(--color-grey-225-10-35);
+  --arrow-hover-background-color: var(--color-grey-225-10-95);
+
+  --dot-color: var(--color-grey-225-10-35);
+
+  --list-badge-color: var(--color-white);
+  --list-badge-background-color: var(--color-grey-225-10-35);
+
+  --input-background-color: var(--dracula-current-line);
+  --input-border-color: var(--color-grey-225-10-75);
+
+  --input-focus-background-color: var(--color-blue-205-100-95);
+  --input-focus-border-color: var(--color-blue-205-100-50);
+
+  --input-error-background-color: var(--color-red-360-100-97);
+  --input-error-border-color: var(--color-red-360-100-45);
+  --input-error-focus-border-color: var(--color-red-360-100-45);
+
+  --input-disabled-color: var(--color-grey-225-10-55);
+  --input-disabled-background-color: var(--color-grey-225-10-97);
+  --input-disabled-border-color: var(--color-grey-225-10-90);
+
+  --toggle-switch-on-background-color: var(--color-blue-205-100-50);
+  --toggle-switch-off-background-color: var(--color-grey-225-10-75);
+  --toggle-switch-switcher-background-color: var(--color-white);
+
+  --side-line-background-color: var(--color-grey-225-10-35);
+  --side-line-extension-background-color: var(--color-grey-225-10-35);
+
+  --list-entry-dot-background-color: var(--color-grey-225-10-35);
+  --list-entry-header-button-fill-color: var(--color-grey-225-10-35);
+  --list-entry-add-entry-empty-background-color: var(--color-blue-205-100-50);
+  --list-entry-add-entry-empty-hover-background-color: var(--color-blue-205-100-45);
+  --list-entry-add-entry-label-color: var(--color-white);
+  --list-entry-add-entry-background-color: var(--color-blue-205-100-50);
+  --list-entry-add-entry-fill-color: var(--color-white);
+
+  --dropdown-item-background-color: var(--dracula-background);
+  --dropdown-item-hover-background-color: var(--add-entry-hover-background-color);
+  --dropdown-separator-background-color: var(--separator-color);
+
+  --feel-active-color: var(--color-blue-205-100-35);
+  --feel-inactive-color: var(--color-grey-225-10-35);
+
+  --feel-indicator-background-color: var(--color-grey-225-10-90);
+}
+
+/*
+.dmn-boxed-expression-container {
+  --context-menu-background-color: var(--dracula-background);
+  --context-menu-border-color: var(--color-grey-225-10-75);
+  --context-menu-color: var(--color-grey-225-10-15);
+  --context-menu-box-shadow-color: var(--color-black-opacity-10);
+  --context-menu-group-entry-border-color: var(--color-grey-225-10-75);
+  --context-menu-group-entry-disabled-color: var(--color-grey-225-10-75);
+  --context-menu-group-entry-hover-background-color: var(--color-grey-225-10-95);
+  --edit-button-color: var(--color-grey-225-10-15);
+  --edit-button-background-color: var(--dracula-background);
+  --edit-button-border-color: var(--color-grey-225-10-75);
+  --edit-button-box-shadow-color: var(--color-black-opacity-10);
+  --edit-button-disabled-color: var(--color-grey-225-10-75);
+}
+
+.dmn-boxed-expression-container {
+  --element-properties-background-color: var(--dracula-background);
+  --element-properties-border-color: var(--color-grey-225-10-15);
+  --element-properties-color: var(--color-grey-225-10-15);
+  --boxed-expression-color: var(--color-grey-225-10-15);
+  --boxed-expression-properties-border-color: var(--color-grey-225-10-15);
+  --boxed-expression-properties-color: var(--color-grey-225-10-15);
+  --powered-by-overlay-background-color: var(--color-black-opacity-20);
+  --powered-by-overlay-content-background-color: var(--dracula-background);
+  --powered-by-overlay-content-border-color: var(--color-grey-225-10-75);
+  --powered-by-overlay-content-color: var(--color-grey-225-10-15);
+  --textarea-border-color: var(--color-grey-225-10-15);
+  --textarea-color: var(--color-grey-225-10-15);
+  --view-drd-button-background-color: var(--dracula-background);
+  --view-drd-button-border-color: var(--color-grey-225-10-75);
+  --view-drd-button-color: var(--color-grey-225-10-15);
+  --view-drd-button-hover-background-color: var(--color-grey-225-10-97);
+  --boxed-expression-font-family: 'Arial', sans-serif;
+  --boxed-expression-font-family-monospace: monospace;
+  --section-padding: 20px;
+  --padding: 12px;
+  --font-size: 14px;
+  --font-size-big: 16px;
+  --font-size-bigger: 21px;
+
+  font-family: var(--boxed-expression-font-family);
+  color: var(--boxed-expression-color);
+  width: 100%;
+  height: 100%;
+}
+/*/
+
+.dmn-decision-table-container {
+  --allowed-values-placeholder-color: var(--color-grey-225-10-35);
+  --cell-description-editor-border-color: var(--color-grey-225-10-15);
+  --create-inputs-border-color: var(--color-grey-225-10-75);
+  --create-inputs-color: var(--color-grey-225-10-75);
+  --create-inputs-hover-color: var(--color-grey-225-10-15);
+  --context-menu-background-color: var(--dracula-background);
+  --context-menu-border-color: var(--color-grey-225-10-75);
+  --context-menu-color: var(--color-grey-225-10-15);
+  --context-menu-box-shadow-color: var(--color-black-opacity-10);
+  --context-menu-group-entry-border-color: var(--color-grey-225-10-75);
+  --context-menu-group-entry-disabled-color: var(--color-grey-225-10-75);
+  --context-menu-group-entry-hover-background-color: var(--color-grey-225-10-95);
+  --drag-and-drop-handle-color: var(--color-grey-225-10-55);
+  --drag-and-drop-handle-hover-color: var(--color-grey-225-10-15);
+  --form-control-label-color: var(--color-grey-225-10-15);
+  --hint-color: var(--color-grey-225-10-15);
+}
+
+/*
+.dmn-decision-table-container {
+  --action-icon-color: var(--color-blue-205-100-50);
+  --action-icon-hover-background-color: var(--color-blue-205-100-45);
+  --action-icon-hover-color: var(--color-white);
+  --add-column-icon-color: var(--color-white);
+  --add-column-icon-background-color: var(--color-grey-225-10-35);
+  --decision-table-color: var(--color-grey-225-10-15);
+  --decision-table-background-color: var(--dracula-background);
+  --decision-table-properties-color: var(--dracula-foreground);
+  --dmn-expression-language-background-color: var(--color-blue-205-100-45-opacity-30);
+  --dmn-expression-language-color: var(--color-white);
+  --dmn-expression-language-hover-background-color: var(--color-blue-205-100-50);
+  --drag-and-drop-drag-color: var(--color-grey-225-10-55);
+  --drag-and-drop-drop-marker-color: var(--color-grey-225-10-35);
+  --hit-policy-explanation-color: var(--color-grey-225-10-35);
+  --powered-by-overlay-background-color: var(--color-black-opacity-20);
+  --powered-by-overlay-content-background-color: var(--dracula-background);
+  --powered-by-overlay-content-color: var(--dracula-foreground);
+  --powered-by-overlay-content-border-color: var(--color-grey-225-10-75);
+  --simple-mode-button-color: var(--color-grey-225-10-15);
+  --simple-mode-button-background-color: var(--color-grey-225-10-97);
+  --simple-mode-button-border-color: var(--color-grey-225-10-75);
+  --simple-mode-button-box-shadow-color: var(--color-black-opacity-10);
+  --simple-mode-button-disabled-color: var(--color-grey-225-10-75);
+  --table-cell-color: var(--color-grey-225-10-15);
+  --table-cell-border-color: var(--color-grey-225-10-15);
+  --table-cell-selected-outline-color: var(--color-blue-205-100-45);
+  --table-foot-add-rule-border-color: var(--color-grey-225-10-75);
+  --table-foot-add-rule-color: var(--color-grey-225-10-75);
+  --table-foot-add-rule-hover-border-color: var(--color-grey-225-10-15);
+  --table-foot-add-rule-hover-color: var(--color-grey-225-10-15);
+  --table-head-border-color: var(--color-grey-225-10-15);
+  --table-head-clause-color: var(--color-grey-225-10-35);
+  --table-head-separator-color: var(--color-grey-225-10-75);
+  --table-head-variable-color: var(--color-grey-225-10-35);
+  --table-row-alternative-background-color: var(--color-grey-225-10-97);
+  --view-drd-button-background-color: var(--dracula-background);
+  --view-drd-button-border-color: var(--color-grey-225-10-75);
+  --view-drd-button-color: var(--color-grey-225-10-15);
+  --view-drd-button-hover-background-color: var(--color-grey-225-10-97);
+  --decision-table-font-family: 'Arial', sans-serif;
+
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  font-family: var(--decision-table-font-family);
+  font-size: 14px;
+  color: var(--table-color);
+  max-height: 100%;
+}
+
+.dmn-js-parent {
+  --color-grey-225-10-15: var(--color-grey-225-10-15);
+  --color-grey-225-10-35: var(--color-grey-225-10-35);
+  --color-grey-225-10-55: var(--color-grey-225-10-55);
+  --color-grey-225-10-75: var(--color-grey-225-10-75);
+  --color-grey-225-10-80: var(--color-grey-225-10-80);
+  --color-grey-225-10-85: var(--color-grey-225-10-85);
+  --color-grey-225-10-90: var(--color-grey-225-10-90);
+  --color-grey-225-10-95: var(--color-grey-225-10-95);
+  --color-grey-225-10-97: var(--color-grey-225-10-97);
+  --color-blue-205-100-35: var(--color-blue-205-100-35);
+  --color-blue-205-100-45: var(--color-blue-205-100-45);
+  --color-blue-205-100-45-opacity-30: var(--color-blue-205-100-35);
+  --color-blue-205-100-50: var(--color-blue-205-100-50);
+  --color-blue-205-100-80:var(--color-blue-205-100-80);
+  --color-blue-205-100-95: var(--color-blue-205-100-95);;
+  --color-green-150-86-44: var(--color-green-150-86-44);
+  --color-red-360-100-35: var(--color-red-360-100-35);
+  --color-red-360-100-45: var(--color-red-360-100-45);
+  --color-red-360-100-92: var(--color-red-360-100-92);
+  --color-red-360-100-97: var(--color-red-360-100-97);
+  --color-white: var(--dracula-background);
+  --color-black: var(--dracula-foreground);
+  --color-black-opacity-10: rgba(248, 248, 242, .1);
+  --color-black-opacity-20: rgba(248, 248, 242, .2);
+  --hint-button-color: var(--color-blue-205-100-35);
+  --hint-invalid-color: var(--color-red-360-100-35);
+  --separator-color: var(--color-grey-225-10-75);
+  --input-border-color: var(--color-grey-225-10-75);
+  --input-color: var(--color-grey-225-10-15);
+  --input-focus-border-color: var(--color-blue-205-100-50);
+  --input-focus-box-shadow-color: var(--color-blue-205-100-80);
+  --input-focus-box-shadow-inset-color: var(--color-grey-225-10-75);
+  --input-focus-invalid-border-color: var(--color-red-360-100-45);
+  --input-focus-invalid-box-shadow-color: var(--color-red-360-100-92);
+  --input-invalid-border-color: var(--color-red-360-100-45);
+  --input-invalid-color: var(--color-red-360-100-35);
+  --select-option-selected-color: var(--color-blue-205-100-35);
+  --select-option-hover-background-color: var(--color-black-opacity-10);
+  --select-options-background-color: var(--color-white);
+  --select-options-border-color: var(--color-grey-225-10-75);
+  --select-options-box-shadow-color: var(--color-black-opacity-10);
+  --select-options-color: var(--color-grey-225-10-15);
+} */
